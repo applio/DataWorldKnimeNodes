@@ -5,7 +5,7 @@ import org.knime.core.node.NodeSettingsWO
 
 
 class DatasetFileReaderConfiguration {
-  private var m_datasetString : String = null
+  private var m_datasetString : String = DatasetFileReaderNodeModel.DEFAULT_DATASETNAME
   private var m_tableString : String = null
   
   def getDatasetString() : String = {
