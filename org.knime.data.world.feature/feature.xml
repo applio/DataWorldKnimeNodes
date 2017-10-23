@@ -28,6 +28,6 @@ governing permissions and limitations under the License.
          id="org.knime.data.world.restful"
          download-size="0"
          install-size="0"
-         version="0.8.0"/>
+         version="0.0.0"/>
 
 </feature>
