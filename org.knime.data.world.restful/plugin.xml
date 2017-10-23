@@ -2,13 +2,13 @@
 <?eclipse version="3.0"?><plugin>
 
    <extension point="org.knime.workbench.repository.categories">
-      <category description="Tools for interacting with the data.world platform" icon="icons/dw_sparkle8bit16_transparent.png" level-id="dataWorld" name="data.world" path="/"/>
+      <category description="Tools for interacting with the data.world platform" icon="icons/dw_sparkle8bit16_transparent.png" level-id="dataWorld" name="data.world" path="/community"/>
    </extension>
    
    <extension point="org.knime.workbench.repository.nodes">
-      <node category-path="/dataWorld" factory-class="org.knime.data.world.restful.AddDatasetFileNodeFactory" id="org.knime.data.world.restful.AddDatasetFileNodeFactory"/>
-      <node category-path="/dataWorld" factory-class="org.knime.data.world.restful.DatasetFileReaderNodeFactory" id="org.knime.data.world.restful.DatasetFileReaderNodeFactory"/>
-      <node category-path="/dataWorld" factory-class="org.knime.data.world.restful.UploadTableToDatasetNodeFactory" id="org.knime.data.world.restful.UploadTableToDatasetNodeFactory"/>
+      <node category-path="/community/dataWorld" factory-class="org.knime.data.world.restful.AddDatasetFileNodeFactory" id="org.knime.data.world.restful.AddDatasetFileNodeFactory"/>
+      <node category-path="/community/dataWorld" factory-class="org.knime.data.world.restful.DatasetFileReaderNodeFactory" id="org.knime.data.world.restful.DatasetFileReaderNodeFactory"/>
+      <node category-path="/community/dataWorld" factory-class="org.knime.data.world.restful.UploadTableToDatasetNodeFactory" id="org.knime.data.world.restful.UploadTableToDatasetNodeFactory"/>
    </extension>
    
    <extension point="org.eclipse.ui.preferencePages">
