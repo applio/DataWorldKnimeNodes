@@ -8,15 +8,15 @@ Bundle-ClassPath: datadotworldnodes.jar,
 Bundle-Activator: org.knime.data.world.restful.AddDatasetFileNodePlugin
 Bundle-Vendor: data.world Inc. and KNIME.COM AG
 Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.12.0,4.0.0)",
- org.knime.workbench.core;bundle-version="[3.4.0,4.0.0)",
- org.knime.workbench.repository;bundle-version="[3.4.0,4.0.0)",
- org.knime.base;bundle-version="[3.4.0,4.0.0)",
+ org.knime.workbench.core;bundle-version="[3.4.0,5.0.0)",
+ org.knime.workbench.repository;bundle-version="[3.4.0,5.0.0)",
+ org.knime.base;bundle-version="[3.4.0,5.0.0)",
  org.apache.httpcomponents.httpclient;bundle-version="[4.3.6,5.0.0)",
  org.apache.httpcomponents.httpcore;bundle-version="[4.3.3,5.0.0)",
  com.google.gson;bundle-version="[2.8.1,3.0.0)",
  org.scala-lang.scala-library;bundle-version="[2.11.8,2.12.0)"
 Bundle-ActivationPolicy: lazy
-Export-Package: org.knime.data.world.restful;version="0.8.0";
+Export-Package: org.knime.data.world.restful;version="0.8.1";
   uses:="org.knime.core.node.port.database,
    scala,
    org.knime.core.node.port.database.reader,
